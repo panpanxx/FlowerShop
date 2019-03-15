@@ -1,0 +1,163 @@
+body{
+     background:#414141;
+     font-family: 'Î¢ÈíÑÅºÚ', 'Microsoft YaHei';
+    }
+ 
+ .container {
+      position: relative;
+      width: 1200px;
+      height: 400px;
+      margin:10px auto 0 auto;
+      box-shadow: 0 0 5px gray;
+      overflow: hidden;
+    }
+ .container .wrap {
+      position: absolute;
+      width: 8400px;
+      height: 400px;
+      z-index: 1;
+    }
+ .container .wrap img {
+      float: left;
+      width: 1200px;
+      height: 400px;
+    }
+ .container .buttons {
+      position: absolute;
+      right:500px;
+      bottom:20px;
+      width: 200px;
+      height: 10px;
+      z-index: 2;
+    }
+ .container .buttons span {
+      margin-left: 5px;
+      display: inline-block;
+      width: 20px;
+      height: 20px;
+      border-radius: 50%;
+      background-color: gray;
+      text-align: center;
+      color:white;
+      cursor: pointer;
+    }
+ .container .buttons span.on{
+      background-color:rgba(0,0,0,0.2) ;
+    }
+ .container .arrow {
+      position: absolute;
+      top: 35%;
+      color: gray;
+      padding:0px 14px;
+      border-radius: 50%;
+      font-size: 50px;
+      z-index: 2;
+      display: none;
+    }
+ .container .arrow_left {
+      left: 10px;
+    }
+ .container .arrow_right {
+      right: 10px;
+    }
+ .container:hover .arrow {
+      display: block;
+    }
+ .container .arrow:hover {
+      background-color: rgba(0,0,0,0.2);
+    }
+
+#content {
+     clear: left; 
+}
+.contents{
+    width:100%;
+    height:1800px;
+}
+.showa{
+    width: 1300px;
+    margin:0 auto;
+}
+.showa ul li{
+    list-style:none;
+    float:left;
+    cursor: pointer;
+}
+.showa ul li a{
+    text-decoration:none;
+}
+.showa img{
+    display: block;
+    width: 100%;
+    border: 0
+}
+.showb{
+    width:1300px;
+    margin:0 auto;
+}
+.showb ul li{
+    list-style:none;
+    float:left;
+    cursor: pointer;
+}
+.showb ul li a{
+    text-decoration:none;
+}
+.showb img{
+    display: block;
+    width: 100%;
+    border: 0
+}
+.showc{
+    width:1300px;
+    margin:0 auto;
+}
+.rose{
+    width: 1300px;
+    height:50px;
+    margin-top:20px;
+}
+.rose p{
+    font-size:18px;
+    color:white;
+    text-align:center;
+}
+.ula {
+    width: 1240px;
+    list-style: none;
+    margin: 0 auto;
+    padding: 0;
+    min-height: 500px;
+}
+.ula a {
+    text-decoration: none;
+}
+.ula li {
+    width: 310px;
+    height: 415px;
+    float: left;
+    color: #000;
+    text-align: center;
+    position: relative;
+    transition: all .8s ease-in-out;
+}
+.li_img {
+    width: 260px;
+    height: 260px;
+    margin: 24px auto;
+}
+.li_img img {
+    width: 260px;
+    height: 260px;
+    display:inline;
+}
+.f14 {
+    font-size: 14px;
+    line-height: 20px;
+}
+.ula li p {
+    line-height: 28px;
+}
+.f12 {
+    font-size: 12px;
+}
